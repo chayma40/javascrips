@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}

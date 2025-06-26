@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    text-align: center;
+}
+
+.password-container {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#passwordLabel {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#copyIcon {
+    cursor: pointer;
+    color: blue;
+    font-size: 20px;
+}
+
+#copyIcon:hover {
+    color: green;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
